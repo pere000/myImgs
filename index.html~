@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        /* This prevents your image from overflowing small mobile screens */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px; /* Optional: rounds the corners of your photo */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="images/China.png" alt="&nbsp;&nbsp;Not yet implemented">
+    <img src="images/Cambodia.png" alt="&nbsp;&nbsp;Not yet implemented">
+
+
+</body>
+</html>
